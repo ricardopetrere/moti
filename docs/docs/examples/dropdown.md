@@ -9,14 +9,8 @@ You can preview this example [on Expo Snack](https://snack.expo.dev/@nandorojo/m
 
 ```tsx
 import React from 'react'
-import {
-  StyleSheet,
-  SafeAreaView,
-  View,
-  Text,
-  ViewProps,
-  Platform,
-} from 'react-native'
+import { StyleSheet, View, Text, ViewProps, Platform } from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
 import {
   MotiPressable,
   useMotiPressable,

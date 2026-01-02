@@ -1,4 +1,4 @@
-import { SafeAreaView as RSafeAreaView } from 'react-native'
+import { SafeAreaView as RSafeAreaView } from 'react-native-safe-area-context'
 
 import { motify } from '../core'
 

@@ -37,8 +37,9 @@ import {
   Text as RText,
   Image as RImage,
   ScrollView as RScrollView,
-  SafeAreaView as RSafeAreaView,
 } from 'react-native'
+
+import { SafeAreaView as RSafeAreaView } from 'react-native-safe-area-context'
 
 export const View = motify(RView)()
 export const Text = motify(RText)()

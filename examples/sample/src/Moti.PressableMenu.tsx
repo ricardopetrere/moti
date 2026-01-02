@@ -1,14 +1,8 @@
 //  stitches,
 
-import {
-  StyleSheet,
-  SafeAreaView,
-  View,
-  Text,
-  ViewProps,
-  Platform,
-} from 'react-native'
+import { StyleSheet, View, Text, ViewProps, Platform } from 'react-native'
 import React from 'react'
+import { SafeAreaView } from 'react-native-safe-area-context'
 import {
   MotiPressable,
   useMotiPressable,
